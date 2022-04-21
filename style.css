@@ -49,3 +49,13 @@ ul {
     font-size: 15px;
     padding-left: 350px;
 }
+
+#fun-tip {
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #ff0;
+}
