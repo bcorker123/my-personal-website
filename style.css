@@ -38,16 +38,14 @@ h3 {
 }
 
 .cat-pics {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 300px;
     height: 300px;
     object-fit:cover;
+    padding-left: 100px;
 }
 
 ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    padding-left: 495px;
+    padding-left: 350px;
 }
