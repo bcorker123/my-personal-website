@@ -1,4 +1,4 @@
-const pics = document.querySelector('img');
+const pics = document.getElementsByClassName('cat-pics');;
 
 function catPics() {
     alert('Cute cat!');
