@@ -1,12 +1,24 @@
-console.log('poop');
-const pics = document.getElementsByClassName('cat-pics');
+const pics = document.querySelectorAll('.cat-pics');
 
-function catPics() {
-    alert('Cute cat!');
-};
+const catPics = () => alert('Cute cat!')
 
-let count = 0;
+// let count = 0;
 
-for (let n = 0; n < pics.length; n++) {
-    pics[n].addEventListener('click', catPics);
-};
+//i think i can change this to a forEach bc pics is an array-like object
+// for (let n = 0; n < pics.length; n++) {
+//     pics[n].addEventListener('click', catPics);
+// };
+
+//i changed it to a forEach
+pics.forEach(element => element.addEventListener('click', catPics))
+
+
+
+
+// adds solid border to each pic element (looks weird bc it encloses padding too)
+// pics.forEach(element => element.style.border = 'solid')
+
+//could use querySelector to replace the selected cat pic with one with
+//a crown on it or replace it with a pic online of shrek or some shit
+const replacePic = (e) => console.log(e.target.src='./images/shrek-fierce.jpg')
+pics.forEach(element => element.addEventListener('click', replacePic))

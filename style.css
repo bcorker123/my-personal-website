@@ -12,7 +12,7 @@ body {
 h1 {
     text-align: center;
     color: #fff;
-    font-size: 50px;
+    font-size: 100px;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow:
         3px 3px 0 #000,
@@ -25,16 +25,16 @@ h1 {
 h2 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 30px;
     text-decoration: underline;
 }
 
 h3 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 50px;
     font-style: italic;
-    color: #ff0;
+    color: rgb(231, 192, 18);
 }
 
 .cat-pics {
@@ -43,7 +43,9 @@ h3 {
     object-fit:cover;
     padding-left: 250px;
 }
-
+/*
+test out lineHeight
+*/
 ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
