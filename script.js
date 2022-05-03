@@ -10,7 +10,7 @@ const catPics = () => alert('Cute cat!')
 // };
 
 //i changed it to a forEach
-pics.forEach(element => element.addEventListener('click', catPics))
+//pics.forEach(element => element.addEventListener('click', catPics))
 
 
 
@@ -20,5 +20,10 @@ pics.forEach(element => element.addEventListener('click', catPics))
 
 //could use querySelector to replace the selected cat pic with one with
 //a crown on it or replace it with a pic online of shrek or some shit
-const replacePic = (e) => console.log(e.target.src='./images/shrek-fierce.jpg')
+const replacePic = (e) => {
+    const originalImg = e.target.src;
+    e.target.src='./images/shrek-fierce.jpg';
+    setTimeout(() => e.target.src=originalImg, 200)
+}
+
 pics.forEach(element => element.addEventListener('click', replacePic))
