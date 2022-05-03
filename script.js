@@ -20,9 +20,15 @@ const catPics = () => alert('Cute cat!')
 
 //could use querySelector to replace the selected cat pic with one with
 //a crown on it or replace it with a pic online of shrek or some shit
+
+let count = 0
 const replacePic = (e) => {
     const originalImg = e.target.src;
     e.target.src='./images/shrek-fierce.jpg';
+    count++
+    console.log(count)
+    document.querySelector('#shrek').textContent = `You have been shrek'd ${count} times!`
+    document.querySelector('#shrek').style.color = 'rgb(52, 170, 52)'
     setTimeout(() => e.target.src=originalImg, 200)
 }
 
