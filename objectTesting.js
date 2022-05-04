@@ -47,12 +47,12 @@ const pets = {
 //console.log(pets.corn.description[2])
 
 //make a table with cat's info
-const table = document.querySelector('table');
-const createRow = document.createElement('tr');
-for(element in pets){
-    const newRow = createRow
-    table.append(newRow);
-}
+// const table = document.querySelector('table');
+// const createRow = document.createElement('tr');
+// for(element in pets){
+//     const newRow = createRow
+//     table.append(newRow);
+// }
 
 //removed while working on eventTesting
 //console.log(table);
