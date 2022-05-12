@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const petPics = document.querySelectorAll('.cat-pics');
     
-    
     // 'mouseenter' & 'mouseleave' events
     petPics.forEach(pic => pic.addEventListener('mouseenter', e => e.target.style.opacity = 0.7))
     petPics.forEach(pic => pic.addEventListener('mouseleave', e => e.target.style.opacity = 1))
@@ -21,10 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
         comments.appendChild(div)
         event.target[0].value = ''
     }
-
     form.addEventListener('submit', addComment);
     
-    //console.log(comments)
 
 
 
