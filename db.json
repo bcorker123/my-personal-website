@@ -1,0 +1,35 @@
+{
+    "pets": {
+            "mittens": {
+            "name": "Mittens",
+            "age": 7,
+            "description": "A kind, gentle soul, Mittens is the oldest of the 3 cats. He likes to lay on the couch, look out the side door window, and, of course, get pet! He has a two-colored nose and the softest belly you've ever seen.",
+            "imageSet": [
+                "./images/mittens-couch.jpg",
+                "./images/mittens-eyes.jpg",
+                "./images/mittens-sleepy.jpg"
+            ]
+            },
+            "corn": {
+            "name": "Corn",
+            "age": 6,
+            "description": "Corn has a playful and lovable attitude, and is the \"middle child\" of the 3 cats. He likes to play and scratch like James, but when he's hungry he SCREAMS like he hasn't eaten in weeks! If you haven't noticed already, he only has 1 eye! He had to have surgery to have it removed but he's so much better now.",
+            "imageSet": [
+                "./images/corn-eye.jpg",
+                "./images/corn-lights.jpg",
+                "./images/corn-tongue.jpg"
+            ]
+            },
+            "james": {
+            "name": "James",
+            "age": 4,
+            "description": "Rambunctious and a cuddlebug, James is the youngest of the 3 cats. He has the most energy of the 3 and is always trying to play with something or scratch something. When he is very sleepy, he gets these adorable little bags under his eyes.",
+            "imageSet": [
+                "./images/james-chair.jpg",
+                "./images/james-face.jpg",
+                "./images/james-grass.jpg",
+                "./images/james-sleepy.jpg"
+            ]
+        }
+    }
+}

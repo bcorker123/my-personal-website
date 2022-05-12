@@ -14,5 +14,7 @@ const replacePic = (e) => {
 // putting function on each pic element
 pics.forEach(element => element.addEventListener('click', replacePic))
 
+
+
 // adds solid border to each pic element (looks weird bc it encloses padding too)
 // pics.forEach(element => element.style.border = 'solid')
