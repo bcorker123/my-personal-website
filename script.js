@@ -1,3 +1,6 @@
+document.addEventListener('DOMContentLoaded', init)
+function init(){
+
 const pics = document.querySelectorAll('.cat-pics');
 const catPics = () => alert('Cute cat!')
 
@@ -18,3 +21,5 @@ pics.forEach(element => element.addEventListener('click', replacePic))
 
 // adds solid border to each pic element (looks weird bc it encloses padding too)
 // pics.forEach(element => element.style.border = 'solid')
+
+}
